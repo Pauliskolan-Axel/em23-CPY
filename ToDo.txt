@@ -1,0 +1,50 @@
+List of Issues ELEMIK 2022
+
+Clone repo by clicking Vs Code button. You now have a local repo (folder) on your harddrive. Take note where it is.
+In Vs Code, add folder /Volumes/CIRCUITPY/ to the workspace so you have both folders in sight. Save the workspace in your local repo folder. use this next time you want to work with the code.
+
+Download a project bundle to HDD.
+Drag project bundle to local repo from Finder to vs Code, replacing libs and Code.py. Delete possibly created files that start with '._'
+In Vs Code, drag files from local repo to /Volumes/CIRCUITPY/, replace all files and folders. You might have to empty the lib folder if it has old libraries that now takes upp space.
+Run the code (should be restarted automacigally, but at least with saves).
+
+Start a new branch "E-level". On this branch you close E-issues and then do a Merge Pull Request via the PR extension when they are all completed. You can also click commit & create Pull Request when committing the last issue in that level. 
+Create a new branch "D-level" from your completed E-level branch and continue to work.
+
+Edit the code.py on your CPY and when an issue is solved, copy back (Cmd + A, Cmd + C, Cmd + V) to the local repo, save (Cmd + s) and commit/push with "Resolved #..." message.
+
+* Installera CircuitPython 8.0.0 (follow instructions in Weatherstation)
+* Make one commit per issue resolved. Note its only the local repo, not the code on the CPY that is pushed to the remote repo
+
+________________E________________________
+TODO Pyportal weatherstation changed for your city, first commit
+TODO Change position of weather data to fit new background
+TODO Use a nice big font, see Custom Fonts Pyportal. 
+     Press Option when opening FontForge, pixelsize 12,16,24. Choose appropriate charachters, dont forget space
+TODO Make a background in Google Slides/Gimp
+TODO Fetch feeds with callback, adafruit_io_feed_callback.py
+TODO Present your own feed data in new labels 
+TODO QR code for public dashboard, use pyportal.show_QR(...)
+TODO Display current time
+________________D________________________
+TODO Units, decimals for feeds (feed_info-list)
+TODO Statuslabel showing what's happening
+TODO Buttons to switch between two views
+TODO Forecast instead of weather
+TODO For loops where its possible
+TODO Update feeds data with a button, using pyportal.fetch in pyportal_simpletest.py
+________________C________________________
+TODO Update at regular intervals
+TODO Sync update to data
+TODO Forecast + Pop, Rain, Sunrise, Sunset
+TODO Update forecast with update button
+TODO Except for errors, restart
+________________B________________________
+TODO Use CLI to copy files and prepare CPY  https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#on-macos-3105312
+TODO One Sparkline, smaller fonts, remake background, fetch last 48 h
+TODO HI LO scale markings
+TODO Progressbar while downloading feed
+________________A________________________
+TODO 3 more buttons, change sparklines, label indicating what we see
+TODO 2 buttons 48h, 96h, change label color once pressed
+TODO Filamentsvåg med Pyportal
