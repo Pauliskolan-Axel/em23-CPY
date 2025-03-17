@@ -2,7 +2,7 @@
 
 I denna del ska du lära dig att programmera en s.k. Pyportal att göra ett antal saker, till att börja med hämta väderleksrapport och dina feedar från internet. Programspråket är en dialekt av Python, Adafruits Circuitpython för mikrokontroller.
 
-<img src="https://github.com/Pauli-em-22/assets/blob/main/Pyportal_example.jpg" alt="Your image title" width="650"/>
+<img src="https://github.com/Pauli-em-22/assets/blob/main/em2425_E.jpg" alt="Your image title" width="650"/>
 
 I [ToDo](ToDo.txt) ser du exakt vilka issues som ska lösas. Du ska skapa nya branches för varje betygsnivå, och göra en s.k. Pull Request (PR) när du gjort alla issues för den nivån. Denna PR godkänner jag. Du kan under tiden fortsätta med en ny branch (Create from E-level) och sedan göra en Rebase när PR är godkänd.
 
