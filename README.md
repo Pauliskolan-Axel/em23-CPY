@@ -13,7 +13,7 @@ Learn guides:
 * [Using Fonts](https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display?view=all)
 * [Lathund om Fonts](https://adafruit-playground.com/u/Timeline/pages/creating-reduced-sized-bitmap-fonts-from-ttf-file). Observera att du måste åter markera de du vill ha efter steg 5.
 * [Massor med trix, bland annat hur startar olika code.py](https://github.com/todbot/circuitpython-tricks)
-* Även [här](https://github.com/FoamyGuy/Foamyguy_CircuitPython_nvm_helper)
+* Även [här](https://github.com/FoamyGuy/Foamyguy_CircuitPython_nvm_helper) finns info om hur man kör olika kod.
   
 * [Buttons and separate frames](https://learn.adafruit.com/making-a-pyportal-user-interface-displayio?view=all)
 * För [grafer, cartesian:](https://docs.circuitpython.org/projects/displayio-layout/en/latest/api.html#module-adafruit_displayio_layout.widgets.cartesian)
