@@ -13,16 +13,18 @@ Download the latest bundle so you have the examples.
 Start a new branch "E-level". On this branch you close E-issues and then do a Merge Pull Request via the PR extension when they are all completed. You can also click commit & create Pull Request when committing the last issue in that level. 
 Create a new branch "D-level" from your completed E-level branch and continue to work.
 
+Create an issue for each of the TODOs below. You can do this inside VS code, or on github.dev.
+
 Edit the code.py on your CPY and when an issue is solved, run your task to copy to local repo and commit/push with "Resolved #..." message.
 
 * Install latest CircuitPython and update libraries. 
-* Make one commit per issue resolved. Note its only the local repo, not the code on the CPY that is pushed to the remote repo
+* Make one commit per issue resolved. Note it's only the local repo, not the code on the CPY that is pushed to the remote repo
 * Use lists and for loops as much as possible.
 * Keep track of memory use with gc.memfree()
 
 ________________E________________________
 TODO Run the Internet Connect code. Try to understand most of it, and get rid of unneccessary code once it works. First commit.
-TODO Weatherstation changed for your city. Use Open Meteo. Display in labels. 
+TODO Weatherstation changed for your city. See picture in README. Use Open Meteo. Display in labels. 
 TODO Use a nice big font, see guide Custom Fonts Pyportal.
      Press Option when opening FontForge, pixelsize 12,16,24. Choose appropriate characters, dont forget space, degree etc.
 TODO Make a background in Google Slides, GIMP and/or AI.
@@ -31,13 +33,13 @@ TODO Fetch feeds with callback, adafruit_io_feed_callback.py
 TODO Present your own feed data in more labels.
 
 ________________D________________________
-TODO QR code for public dashboard, use pyportal.show_QR(...)
+TODO QR code for public dashboard, use pyportal.show_QR(...) or make your own.
 TODO Display current time.
 TODO Units, decimals for feeds (feed_info-list)
 TODO Statuslabel showing what's happening.
-TODO Lists and For loops where its possible
+TODO Lists and For loops wherever possible.
 TODO Present 3 news items from the guardian.com. No feed data if you get memory issues.
-TODO Buttons to update and show the next 3 news items.
+TODO Button to update and show the next 3 news items.
 
 ________________C________________________
 TODO One background for each mode
@@ -47,7 +49,9 @@ TODO Except for errors, restart.
 ________________B________________________
 TODO Feed data again. No weather or news. 3 buttons, choose feed for sparklines, label indicating what we see.
 TODO One Sparkline, remake background, fetch last 48 h or as many as memory allows. Check out cartesian.
+TODO Control memory usage and use garbage collection to free upp memory.
 TODO HI LO scale markings and mapping to date.
+
 ________________A________________________
 TODO Progressbar while downloading feed/creating sparkline.
 TODO 2 buttons 48h, 168h, change label color on button once pressed.
